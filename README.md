@@ -25,9 +25,14 @@ Here's exactly what I typed to build this, start to finish:
 
 5. Make the footer font color brighter but still match the site style — and say
    we use startpage but we're not affiliated, keep their trademark clear
+
+6. Add the project github url and say its FOSS — match the site style,
+   short sweet direct, put it where it makes sense
+
+7. Add the rest of prompts in readme then do a push again
 ```
 
-Five prompts → one working project.
+Seven prompts → one working project.
 
 ---
 
