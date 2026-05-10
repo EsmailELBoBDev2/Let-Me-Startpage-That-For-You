@@ -141,6 +141,23 @@
                   opacity .3s;
       filter: drop-shadow(0 1px 3px rgba(0,0,0,.6));
     }
+
+    /* ── Footer ── */
+    footer {
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      text-align: center;
+      padding: .75rem 1rem;
+      font-size: .78rem;
+      color: #7a7e9e;
+      border-top: 1px solid #252740;
+      background: #1c1e2e;
+    }
+    footer a {
+      color: #9ba8e8;
+      text-decoration: none;
+    }
+    footer a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -174,6 +191,11 @@
 
   <p id="hint"></p>
 </div>
+
+<footer>
+  Uses <a href="https://www.startpage.com" target="_blank" rel="noopener">Startpage™</a> —
+  Google results, no tracking. Not affiliated with Startpage. Startpage is a trademark of Startpage B.V. 🔒
+</footer>
 
 <!-- Fake cursor (arrow SVG) -->
 <div id="cur">
